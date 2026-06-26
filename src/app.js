@@ -39,9 +39,25 @@ app.use('/api/coupons', couponRoutes);
 app.use('/api/enrollments', enrollmentRoutes);
 app.use('/api/search', searchRoutes);
 
+import mongoose from 'mongoose';
+import { getMongoDBURI } from './data/db.js';
+
 // Health check endpoint
 app.get('/health', (req, res) => {
-  res.json({ status: 'ok', time: new Date() });
+  const resolvedUri = getMongoDBURI();
+  res.json({
+    status: 'ok',
+    time: new Date(),
+    env: {
+      has_mongodb_uri: !!process.env.MONGODB_URI,
+      mongodb_uri_start: process.env.MONGODB_URI ? process.env.MONGODB_URI.substring(0, 25) : null,
+      resolved_uri_start: resolvedUri ? resolvedUri.substring(0, 25) : null,
+      node_env: process.env.NODE_ENV
+    },
+    db: {
+      readyState: mongoose.connection.readyState
+    }
+  });
 });
 
 // 404 Route handler
