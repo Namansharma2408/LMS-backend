@@ -1,6 +1,6 @@
 import app from './app.js';
 import { initDB } from './data/db.js';
-console.log("Mongo URI exists:", !!process.env.MONGODB_URI);
+
 // Initialize Local JSON Databases (runs asynchronously)
 initDB().then(() => {
   console.log('Mock database files initialized successfully.');
