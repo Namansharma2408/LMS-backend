@@ -1,0 +1,38 @@
+[
+  {
+    "id": "TX-94821",
+    "student": "user-maya",
+    "course": "course-1",
+    "amount": "$129",
+    "gateway": "Stripe",
+    "date": "Jun 24",
+    "status": "Paid"
+  },
+  {
+    "id": "TX-94812",
+    "student": "user-student",
+    "course": "course-2",
+    "amount": "$89",
+    "gateway": "PayPal",
+    "date": "Jun 24",
+    "status": "Paid"
+  },
+  {
+    "id": "TX-94788",
+    "student": "user-student",
+    "course": "course-4",
+    "amount": "$199",
+    "gateway": "Stripe",
+    "date": "Jun 23",
+    "status": "Refund"
+  },
+  {
+    "id": "TX-94751",
+    "student": "user-student",
+    "course": "course-3",
+    "amount": "$149",
+    "gateway": "Razorpay",
+    "date": "Jun 23",
+    "status": "Pending"
+  }
+]

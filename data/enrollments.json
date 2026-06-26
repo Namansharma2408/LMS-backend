@@ -1,0 +1,37 @@
+[
+  {
+    "student": "user-maya",
+    "course": "course-1",
+    "enrollmentDate": "Jun 20",
+    "progress": "72%",
+    "certificateStatus": "In progress"
+  },
+  {
+    "student": "user-student",
+    "course": "course-1",
+    "enrollmentDate": "Jun 21",
+    "progress": "25%",
+    "certificateStatus": "In progress"
+  },
+  {
+    "student": "user-student",
+    "course": "course-2",
+    "enrollmentDate": "Jun 18",
+    "progress": "100%",
+    "certificateStatus": "Issued"
+  },
+  {
+    "student": "user-student",
+    "course": "course-3",
+    "enrollmentDate": "Jun 13",
+    "progress": "44%",
+    "certificateStatus": "Locked"
+  },
+  {
+    "student": "user-student",
+    "course": "course-4",
+    "enrollmentDate": "Jun 10",
+    "progress": "91%",
+    "certificateStatus": "Pending"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "code": "SUMMER30",
+    "discount": "30%",
+    "type": "Percentage",
+    "maxUses": 2000,
+    "currentUses": 891,
+    "expiry": "Jul 31",
+    "courseId": "course-1",
+    "status": "Active"
+  },
+  {
+    "code": "INSTRUCTOR50",
+    "discount": "$50",
+    "type": "Fixed",
+    "maxUses": 500,
+    "currentUses": 128,
+    "expiry": "Aug 15",
+    "status": "Active"
+  },
+  {
+    "code": "WELCOME10",
+    "discount": "10%",
+    "type": "Percentage",
+    "maxUses": 5000,
+    "currentUses": 4912,
+    "expiry": "Dec 31",
+    "status": "Active"
+  },
+  {
+    "code": "SPRING24",
+    "discount": "25%",
+    "type": "Percentage",
+    "maxUses": 2100,
+    "currentUses": 2104,
+    "expiry": "Expired",
+    "status": "Expired"
+  }
+]

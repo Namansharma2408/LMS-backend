@@ -1,0 +1,298 @@
+[
+  {
+    "id": "course-1",
+    "name": "Advanced React Systems",
+    "instructors": [
+      "user-jon"
+    ],
+    "price": "129",
+    "enrollments": "3,814",
+    "rating": "4.9",
+    "revenue": "$58.2K",
+    "status": "Published",
+    "gradient": "from-purple-500 to-blue-500",
+    "description": "Master React server components, concurrent rendering, state management at scale, and high-performance design patterns.",
+    "curriculum": [
+      {
+        "type": "topic",
+        "title": "1. Welcome & Introduction",
+        "children": [
+          {
+            "type": "lecture",
+            "title": "1.1 Platform Walkthrough & Features",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "duration": "5:00",
+            "description": "Get started with an overview of features, workspace structure, and console controls.",
+            "notes": "Welcome to Nexus LMS! In this video, we'll walk through the user interface, explain how to switch between dark and light themes, and explore how to access your purchased courses and curriculum tree."
+          },
+          {
+            "type": "lecture",
+            "title": "1.2 Getting Help & Joining Community",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "duration": "3:40",
+            "description": "How to get support, report bugs, and join our Slack community.",
+            "notes": "Join our community forums at community.nexus.dev. For urgent support, email support@nexus.dev."
+          }
+        ]
+      },
+      {
+        "type": "topic",
+        "title": "2. Core Framework Concepts",
+        "children": [
+          {
+            "type": "topic",
+            "title": "2.1 Advanced Concepts Deep Dive",
+            "children": [
+              {
+                "type": "lecture",
+                "title": "2.1.1 Understanding State & Context",
+                "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                "duration": "8:12",
+                "description": "An in-depth exploration of state persistence and hierarchical context providers.",
+                "notes": "Keep in mind that React state is in-memory by default. When building persistent applications, you will want to integrate LocalStorage or a backend database API."
+              },
+              {
+                "type": "lecture",
+                "title": "2.1.2 Virtual DOM Reconciliation",
+                "videoUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                "duration": "6:20",
+                "description": "How React renders elements, diffs trees, and optimizes updates.",
+                "notes": "The virtual DOM is a programming concept where an ideal, or 'virtual', representation of a UI is kept in memory and synced with the 'real' DOM."
+              }
+            ]
+          },
+          {
+            "type": "lecture",
+            "title": "2.2 Interactive Components Walkthrough",
+            "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+            "duration": "7:15",
+            "description": "Learn how to build modular, beautiful, and reusable component libraries.",
+            "notes": "Always prioritize accessibility (ARIA roles) and clean prop definitions when building components."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-2",
+    "name": "UX Research for SaaS",
+    "instructors": [
+      "user-instructor"
+    ],
+    "price": "89",
+    "enrollments": "2,208",
+    "rating": "4.8",
+    "revenue": "$41.8K",
+    "status": "Published",
+    "gradient": "from-orange-500 to-yellow-500",
+    "description": "Learn user interview frameworks, usability testing protocols, and SaaS user onboarding optimization strategies.",
+    "curriculum": [
+      {
+        "type": "topic",
+        "title": "1. Welcome & Introduction",
+        "children": [
+          {
+            "type": "lecture",
+            "title": "1.1 Platform Walkthrough & Features",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "duration": "5:00",
+            "description": "Get started with an overview of features, workspace structure, and console controls.",
+            "notes": "Welcome to Nexus LMS! In this video, we'll walk through the user interface, explain how to switch between dark and light themes, and explore how to access your purchased courses and curriculum tree."
+          },
+          {
+            "type": "lecture",
+            "title": "1.2 Getting Help & Joining Community",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "duration": "3:40",
+            "description": "How to get support, report bugs, and join our Slack community.",
+            "notes": "Join our community forums at community.nexus.dev. For urgent support, email support@nexus.dev."
+          }
+        ]
+      },
+      {
+        "type": "topic",
+        "title": "2. Core Framework Concepts",
+        "children": [
+          {
+            "type": "topic",
+            "title": "2.1 Advanced Concepts Deep Dive",
+            "children": [
+              {
+                "type": "lecture",
+                "title": "2.1.1 Understanding State & Context",
+                "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                "duration": "8:12",
+                "description": "An in-depth exploration of state persistence and hierarchical context providers.",
+                "notes": "Keep in mind that React state is in-memory by default. When building persistent applications, you will want to integrate LocalStorage or a backend database API."
+              },
+              {
+                "type": "lecture",
+                "title": "2.1.2 Virtual DOM Reconciliation",
+                "videoUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                "duration": "6:20",
+                "description": "How React renders elements, diffs trees, and optimizes updates.",
+                "notes": "The virtual DOM is a programming concept where an ideal, or 'virtual', representation of a UI is kept in memory and synced with the 'real' DOM."
+              }
+            ]
+          },
+          {
+            "type": "lecture",
+            "title": "2.2 Interactive Components Walkthrough",
+            "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+            "duration": "7:15",
+            "description": "Learn how to build modular, beautiful, and reusable component libraries.",
+            "notes": "Always prioritize accessibility (ARIA roles) and clean prop definitions when building components."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-3",
+    "name": "Payment Ops 101",
+    "instructors": [
+      "user-instructor"
+    ],
+    "price": "149",
+    "enrollments": "1,744",
+    "rating": "4.7",
+    "revenue": "$31.4K",
+    "status": "Draft",
+    "gradient": "from-emerald-500 to-blue-500",
+    "description": "A complete guide to multi-gateway routing, ledger reconciliation, subscription billing logic, and payout compliance.",
+    "curriculum": [
+      {
+        "type": "topic",
+        "title": "1. Welcome & Introduction",
+        "children": [
+          {
+            "type": "lecture",
+            "title": "1.1 Platform Walkthrough & Features",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "duration": "5:00",
+            "description": "Get started with an overview of features, workspace structure, and console controls.",
+            "notes": "Welcome to Nexus LMS! In this video, we'll walk through the user interface, explain how to switch between dark and light themes, and explore how to access your purchased courses and curriculum tree."
+          },
+          {
+            "type": "lecture",
+            "title": "1.2 Getting Help & Joining Community",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "duration": "3:40",
+            "description": "How to get support, report bugs, and join our Slack community.",
+            "notes": "Join our community forums at community.nexus.dev. For urgent support, email support@nexus.dev."
+          }
+        ]
+      },
+      {
+        "type": "topic",
+        "title": "2. Core Framework Concepts",
+        "children": [
+          {
+            "type": "topic",
+            "title": "2.1 Advanced Concepts Deep Dive",
+            "children": [
+              {
+                "type": "lecture",
+                "title": "2.1.1 Understanding State & Context",
+                "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                "duration": "8:12",
+                "description": "An in-depth exploration of state persistence and hierarchical context providers.",
+                "notes": "Keep in mind that React state is in-memory by default. When building persistent applications, you will want to integrate LocalStorage or a backend database API."
+              },
+              {
+                "type": "lecture",
+                "title": "2.1.2 Virtual DOM Reconciliation",
+                "videoUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                "duration": "6:20",
+                "description": "How React renders elements, diffs trees, and optimizes updates.",
+                "notes": "The virtual DOM is a programming concept where an ideal, or 'virtual', representation of a UI is kept in memory and synced with the 'real' DOM."
+              }
+            ]
+          },
+          {
+            "type": "lecture",
+            "title": "2.2 Interactive Components Walkthrough",
+            "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+            "duration": "7:15",
+            "description": "Learn how to build modular, beautiful, and reusable component libraries.",
+            "notes": "Always prioritize accessibility (ARIA roles) and clean prop definitions when building components."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-4",
+    "name": "AI Course Creation",
+    "instructors": [
+      "user-instructor"
+    ],
+    "price": "199",
+    "enrollments": "1,102",
+    "rating": "4.9",
+    "revenue": "$27.6K",
+    "status": "Review",
+    "gradient": "from-fuchsia-500 to-purple-700",
+    "description": "Leverage generative AI to script, outline, record, and market high-converting professional online courses.",
+    "curriculum": [
+      {
+        "type": "topic",
+        "title": "1. Welcome & Introduction",
+        "children": [
+          {
+            "type": "lecture",
+            "title": "1.1 Platform Walkthrough & Features",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "duration": "5:00",
+            "description": "Get started with an overview of features, workspace structure, and console controls.",
+            "notes": "Welcome to Nexus LMS! In this video, we'll walk through the user interface, explain how to switch between dark and light themes, and explore how to access your purchased courses and curriculum tree."
+          },
+          {
+            "type": "lecture",
+            "title": "1.2 Getting Help & Joining Community",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+            "duration": "3:40",
+            "description": "How to get support, report bugs, and join our Slack community.",
+            "notes": "Join our community forums at community.nexus.dev. For urgent support, email support@nexus.dev."
+          }
+        ]
+      },
+      {
+        "type": "topic",
+        "title": "2. Core Framework Concepts",
+        "children": [
+          {
+            "type": "topic",
+            "title": "2.1 Advanced Concepts Deep Dive",
+            "children": [
+              {
+                "type": "lecture",
+                "title": "2.1.1 Understanding State & Context",
+                "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                "duration": "8:12",
+                "description": "An in-depth exploration of state persistence and hierarchical context providers.",
+                "notes": "Keep in mind that React state is in-memory by default. When building persistent applications, you will want to integrate LocalStorage or a backend database API."
+              },
+              {
+                "type": "lecture",
+                "title": "2.1.2 Virtual DOM Reconciliation",
+                "videoUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                "duration": "6:20",
+                "description": "How React renders elements, diffs trees, and optimizes updates.",
+                "notes": "The virtual DOM is a programming concept where an ideal, or 'virtual', representation of a UI is kept in memory and synced with the 'real' DOM."
+              }
+            ]
+          },
+          {
+            "type": "lecture",
+            "title": "2.2 Interactive Components Walkthrough",
+            "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+            "duration": "7:15",
+            "description": "Learn how to build modular, beautiful, and reusable component libraries.",
+            "notes": "Always prioritize accessibility (ARIA roles) and clean prop definitions when building components."
+          }
+        ]
+      }
+    ]
+  }
+]

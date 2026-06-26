@@ -1,0 +1,67 @@
+[
+  {
+    "_id": "user-admin",
+    "name": "Ava Admin",
+    "email": "admin@nexus.dev",
+    "password": "$2b$10$NeVjDmxvfPWCrNXlcG2X0OTG.i/tRsbH7quJx5nQ1w/KwXKLjhneK",
+    "role": "admin",
+    "joinedDate": "Apr 29, 2026",
+    "purchasedCourseIds": [],
+    "status": "Active"
+  },
+  {
+    "_id": "user-instructor",
+    "name": "Sam Instructor",
+    "email": "instructor@nexus.dev",
+    "password": "$2b$10$NeVjDmxvfPWCrNXlcG2X0OTG.i/tRsbH7quJx5nQ1w/KwXKLjhneK",
+    "role": "instructor",
+    "joinedDate": "May 18, 2026",
+    "purchasedCourseIds": [],
+    "status": "Active"
+  },
+  {
+    "_id": "user-student",
+    "name": "Sam Rivera",
+    "email": "student@nexus.dev",
+    "password": "$2b$10$NeVjDmxvfPWCrNXlcG2X0OTG.i/tRsbH7quJx5nQ1w/KwXKLjhneK",
+    "role": "student",
+    "joinedDate": "Apr 12, 2026",
+    "purchasedCourseIds": [
+      "course-1"
+    ],
+    "status": "Active"
+  },
+  {
+    "_id": "user-maya",
+    "name": "Maya Chen",
+    "email": "maya@nexus.dev",
+    "password": "$2b$10$NeVjDmxvfPWCrNXlcG2X0OTG.i/tRsbH7quJx5nQ1w/KwXKLjhneK",
+    "role": "student",
+    "joinedDate": "Jun 02, 2026",
+    "purchasedCourseIds": [
+      "course-1",
+      "course-2"
+    ],
+    "status": "Active"
+  },
+  {
+    "_id": "user-jon",
+    "name": "Jon Bell",
+    "email": "jon@studio.io",
+    "password": "$2b$10$NeVjDmxvfPWCrNXlcG2X0OTG.i/tRsbH7quJx5nQ1w/KwXKLjhneK",
+    "role": "instructor",
+    "joinedDate": "May 18, 2026",
+    "purchasedCourseIds": [],
+    "status": "Active"
+  },
+  {
+    "_id": "user-priya",
+    "name": "Priya Nair",
+    "email": "priya@edulab.co",
+    "password": "$2b$10$NeVjDmxvfPWCrNXlcG2X0OTG.i/tRsbH7quJx5nQ1w/KwXKLjhneK",
+    "role": "admin",
+    "joinedDate": "Apr 29, 2026",
+    "purchasedCourseIds": [],
+    "status": "Active"
+  }
+]
