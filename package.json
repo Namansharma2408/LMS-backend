@@ -8,6 +8,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
     "test": "jest tests/api.test.js --testEnvironment=node --forceExit && jest tests/workflows.test.js --testEnvironment=node --forceExit && jest tests/razorpay.test.js --testEnvironment=node --forceExit"
   },
   "dependencies": {
