@@ -16,7 +16,7 @@ const app = express();
 // Middlewares
 app.use(helmet());
 
-const allowed = ["http://localhost:5173", "http://localhost:5174", "https://your-domain.com"];
+const allowed = ["http://localhost:5173", "http://localhost:5174", "https://lms-frontend-nine-gilt.vercel.app"];
 app.use(cors({
   origin: (origin, callback) => {
     if (!origin || allowed.includes(origin)) {
