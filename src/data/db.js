@@ -459,13 +459,16 @@ const seedDB = async () => {
 
 export const initDB = async () => {
   try {
+    mongoose.set('bufferCommands', false);
     if (mongoose.connection.readyState !== 1) {
       if (mongoose.connection.readyState !== 0) {
         await mongoose.disconnect();
       }
       console.log('Connecting to MongoDB...');
       const uri = getMongoDBURI();
-      await mongoose.connect(uri);
+      await mongoose.connect(uri, {
+        serverSelectionTimeoutMS: 5000
+      });
       console.log('Connected to MongoDB successfully.');
     }
     await seedDB();

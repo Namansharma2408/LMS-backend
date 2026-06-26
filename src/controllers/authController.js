@@ -61,7 +61,7 @@ export const signup = async (req, res) => {
     });
   } catch (error) {
     console.error('Error during signup:', error);
-    res.status(500).json({ message: 'Server error during signup' });
+    res.status(500).json({ message: 'Server error during signup', error: error.message });
   }
 };
 
@@ -113,7 +113,7 @@ export const login = async (req, res) => {
     });
   } catch (error) {
     console.error('Error during login:', error);
-    res.status(500).json({ message: 'Server error during login' });
+    res.status(500).json({ message: 'Server error during login', error: error.message });
   }
 };
 
