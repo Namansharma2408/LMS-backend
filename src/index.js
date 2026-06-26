@@ -5,7 +5,7 @@ dotenv.config()
 // Initialize Local JSON Databases (runs asynchronously)
 initDB()
   .then(() => {
-    console.log("Mock database files initialized successfully.")
+    console.log("Database initialisation successfully")
   })
   .catch((err) => {
     console.error("Failed to initialize mock databases:", err)
